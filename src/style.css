@@ -135,6 +135,7 @@
     --space-54: 216px;
     --space-56: 224px;
     --space-60: 240px;
+    --space-63-5: 254px;
     --space-64: 256px;
     --space-72: 288px;
     --space-80: 320px;
@@ -166,6 +167,23 @@
 }
 
 @import url(./font.css);
+
+@layer utilities {
+    ::-webkit-scrollbar {
+        @apply w-2;
+        @apply h-2;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-[var(--color-tint-3)];
+        @apply rounded-full
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-[var(--color-primary)];
+        @apply rounded-full
+    }
+}
 
 html {
     font-family: "Vazir", ui-sans-serif, system-ui, -apple-system,
