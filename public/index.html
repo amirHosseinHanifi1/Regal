@@ -24,7 +24,7 @@
                 </li>
                 <li>
                     <a href="#"
-                        class="desktop-header-nav-bar-2 flex gap-2 px-4 py-2 items-center justify-center Button-3 no-underline transition duration-300 ease-in-out rounded-full">
+                        class="desktop-sorting-navbar-button flex gap-2 px-4 py-2 items-center justify-center Button-3 no-underline transition duration-300 ease-in-out rounded-full">
                         <span class="Button-3">دسته بندی ها</span>
                         <img src="../icon/arrow-down.svg" alt="" class="w-4 h-4">
                     </a>
@@ -43,7 +43,7 @@
                 </li>
             </ul>
             <div class="gap-1 flex justify-end items-center">
-                <button class="p-3">
+                <button class="search-button p-3">
                     <img src="../icon/search-normal.svg" class="w-4 h-4">
                 </button>
                 <button class="p-3">
@@ -58,7 +58,8 @@
             </div>
         </header>
     </section>
-    <div class="absolute z-50 bg-white desktop-sorting-nav-bar w-full flex flex-col items-center opacity-0 transition-opacity ease-in-out duration-500 not-sm:hidden">
+    <div
+        class="absolute z-0 bg-white search-page-desktop w-full flex flex-col items-center opacity-0 transition-opacity ease-in-out duration-500 not-sm:hidden">
         <input type="search" placeholder="محصول مورد نظر خود را جستجو کنید..."
             class=" Caption-2 py-4 px-0.5 w-279 rounded-lg border-2 border-[var(--color-gray-4)] text-[var(--color-gray-7)] my-6">
         <span class="inline w-279 Body-3 mb-4">جستجو های پرطرفدار</span>
@@ -155,6 +156,167 @@
             </a>
         </div>
     </div>
+    <div
+        class="absolute flex justify-center z-50 bg-white desktop-sorting-navbar w-full opacity-0 transition-opacity ease-in-out duration-500 not-sm:hidden">
+        <div class="w-279 flex justify-center">
+            <div class="flex flex-col gap-6 w-fit h-fit">
+                <ul
+                    class="grid grid-cols-4 w-[var(--space-136-5)] gap-[auto] list-image-[url('../icon/list-sorting.svg')]">
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">پیراهن کوتاه</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            مجلسی
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            مخمل
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            ساده
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            گیپور
+                        </a>
+                    </li>
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">شلوار</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            کلاسیک
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            جین
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            مام استایل
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            مجلسی
+                        </a>
+                    </li>
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">کت و جلیقه</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            جین
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            مازراتی
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            رسمی
+                        </a>
+                    </li>
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">تاپ و کراپ</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            جلو زیپ
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            ورزشی
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            بند دار
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            بدون فنر
+                        </a>
+                    </li>
+                </ul>
+                <ul
+                    class="grid grid-cols-4 w-[var(--space-136-5)] gap-[auto] list-image-[url('../icon/list-sorting.svg')]">
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">سرهمی</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            جین
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            ابر و بادی
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            مجلسی
+                        </a>
+                    </li>
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">شومیز و بلوز</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            بافت
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            کبریتی
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            نخی
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            ساحلی
+                        </a>
+                    </li>
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">ترنج کت و پالتو</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            کلاهدار
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            بارانی
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            کوتاه
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            چرم
+                        </a>
+                    </li>
+                    <li class="flex flex-col gap-3 justify-start">
+                        <div class="flex items-center gap-2.5">
+                            <img src="../icon/list-sorting.svg" alt="">
+                            <span class="Body-3">دامن</span>
+                        </div>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            راسته
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            بلند
+                        </a>
+                        <a href="#" class="p-4 gap-2 Button-3">
+                            کوتاه
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-3 w-full">
+                <span class="Body-3">دسته بندی های پربازدید</span>
+                <div class="relative">
+                    <div class="">
+                        <img src="../img/sorting/1.png" alt="" class="absolute h-96 w-[var(--space-65-25)]">
+                        <span></span>
+                    </div>
+                    <div class="">
+                        <div class=""></div>
+                        <div class=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="mobile-header max-w-[var(--space-97-5)] sm:hidden left-0 right-0 mx-auto">
         <header
             class="w-full h-full flex justify-between items-center px-5 py-4 border-b-2 border-[var(--color-gray-4)]">
@@ -172,7 +334,8 @@
             </div>
         </header>
     </section>
-    <ul class="absolute z-50 bg-white w-full mobile-nav-bar list-none flex flex-col gap-4 p-4 opacity-0 sm:hidden transition-opacity ease-in-out duration-500">
+    <ul
+        class="absolute z-50 bg-white w-full mobile-nav-bar list-none flex flex-col gap-4 p-4 opacity-0 sm:hidden transition-opacity ease-in-out duration-500">
         <li class="pb-4 border-b-2 border-[var(--color-gray-4)]">
             <a href="#" class="Body-4 flex justify-between">
                 <span>صفحه اصلی</span>
@@ -250,7 +413,8 @@
         </section>
     </main>
 
-    <div class="absolute dark-screen opacity-0 hidden w-full h-full z-20 transition-opacity ease-in-out duration-500"></div>
+    <div class="absolute dark-screen opacity-0 hidden w-full h-full z-20 transition-opacity ease-in-out duration-500">
+    </div>
     <script src="../js/script.js"></script>
 </body>
 
