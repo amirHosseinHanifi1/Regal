@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+    --color-primary: #B19276;
+
     --color-shade-1: #9F836A;
     --color-shade-2: #8E755E;
     --color-shade-3: #7C6653;
@@ -360,4 +362,8 @@ body {
     font-size: var(--font-size-3);
     font-weight: var(--font-weight-regular);
     line-height: var(--space-4-5);
+}
+
+.dark-screen {
+    background-color: rgba(0, 0, 0, 0.5);
 }
